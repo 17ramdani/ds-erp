@@ -1,0 +1,484 @@
+/* FIXING FONT RENDERING */
+/* line 2, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* GLOBAL COLORS */
+/* line 27, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-bg-white {
+  background-color: #FFFFFF; }
+
+/* line 30, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-label {
+  background-color: #D9EBFC;
+  color: #0E6ECE; }
+
+/* line 34, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-label-success {
+  background-color: #D5F6EA;
+  color: #209268; }
+
+/* line 38, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-label-warning {
+  background-color: #FEE2CD;
+  color: #E96A07; }
+
+/* line 42, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-label-danger {
+  background-color: #FCDEE4;
+  color: #EC2248; }
+
+/* line 46, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+body {
+  background-color: #F8F8F8; }
+
+/* line 49, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-img-filter-grey {
+  filter: invert(23%) sepia(9%) saturate(409%) hue-rotate(179deg) brightness(92%) contrast(90%); }
+
+/* TYPOGRAPHY */
+/* line 54, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+body {
+  font-family: 'Hanken Grotesk', sans-serif; }
+
+/* line 57, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
+  color: #E77817; }
+
+/* line 66, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-text-primary {
+  color: #E77817; }
+
+/* line 69, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-logo {
+  max-height: 25px; }
+
+/* line 72, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-logo-medium {
+  max-height: 50px; }
+
+/* line 75, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-img-thumb {
+  max-height: 250px; }
+
+/* line 78, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-breadcrumb-current {
+  font-size: 0.875rem;
+  color: #F1AE74; }
+
+/* line 82, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.ph-1x,
+.ph-lg {
+  vertical-align: middle; }
+
+/* line 87, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.inv {
+  display: none; }
+
+/* NAVIGATION */
+/* line 92, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+aside .uk-nav .uk-nav-sub a {
+  color: #999;
+  font-size: 0.875rem; }
+  /* line 95, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  aside .uk-nav .uk-nav-sub a:hover {
+    color: #E77817; }
+
+/* line 99, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+aside ul.uk-nav-sub {
+  padding-left: 25px; }
+
+/* line 102, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+aside .uk-nav > li > a {
+  color: #3C3F44;
+  font-size: 0.875rem; }
+  /* line 105, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  aside .uk-nav > li > a:hover {
+    color: #E77817; }
+
+/* line 110, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+#navbarLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #E77817;
+  z-index: 100; }
+
+/* line 119, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-menu svg {
+  height: 18px;
+  color: #F1AE74;
+  margin-right: 2.5px; }
+
+/* line 124, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+#dashboardIndex svg {
+  height: 28px;
+  color: #F1AE74;
+  display: block;
+  margin-bottom: 10px; }
+
+/* LAYOUT */
+/* line 133, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-container {
+  padding: 20px;
+  max-width: 1440px; }
+
+/* PANELS */
+/* line 140, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 20px; }
+
+/* line 145, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-alt {
+  display: block;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 15px; }
+  /* line 150, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-alt .rz-panel-subtext {
+    text-transform: uppercase;
+    font-weight: 600; }
+  /* line 154, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-alt .rz-panel-CTA {
+    text-align: right;
+    margin-top: 20px; }
+    /* line 157, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+    .rz-panel-alt .rz-panel-CTA a:hover {
+      text-decoration: none; }
+  /* line 161, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-alt:hover {
+    text-decoration: none;
+    background-color: #FDF3EA; }
+
+/* line 166, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-outline {
+  border: 1px solid #F5F5F5;
+  border-radius: 10px;
+  padding: 20px; }
+
+/* line 171, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-pop {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FDF2E8; }
+
+/* line 176, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-high {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #FBE9DA;
+  background-color: #FEF7F1; }
+
+/* line 182, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-icon {
+  display: block;
+  padding: 10px;
+  font-size: 1.875rem;
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+/* line 189, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-subtext {
+  font-size: 0.75rem;
+  text-transform: uppercase; }
+
+/* line 193, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-heading {
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #E77817; }
+
+/* line 198, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1; }
+
+/* line 204, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-buttonset a {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #FDF2E8;
+  border-radius: 10px; }
+  /* line 211, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-buttonset a dt {
+    color: #A25410;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.75rem; }
+  /* line 217, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-buttonset a dd {
+    color: #54595F;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1; }
+  /* line 223, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-buttonset a:hover {
+    text-decoration: none;
+    background-color: #FDF2E8; }
+
+/* line 228, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-buttonset a.uk-active {
+  background-color: #FDF2E8; }
+
+/* line 235, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-panel-filter {
+  display: block;
+  padding: 10px;
+  background-color: #FEF7F1;
+  border: 1px solid #FEF7F1;
+  border-radius: 10px; }
+  /* line 241, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-filter:hover {
+    background-color: #FFF;
+    border: 1px solid #FEF7F1;
+    text-decoration: none; }
+  /* line 247, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-panel-filter div div {
+    color: #ABB0B5;
+    text-transform: uppercase; }
+
+/* line 253, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-card {
+  border: 1px solid #F5F5F5;
+  border-radius: 10px; }
+  /* line 256, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-card .rz-card-heading {
+    background-color: #f5f5f5;
+    padding: 15px; }
+
+/* line 262, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-signatures {
+  text-align: center; }
+  /* line 264, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-signatures dt {
+    margin-bottom: 30px; }
+
+/* TABLE FORMAT */
+/* line 272, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-table-small tfoot {
+  padding-top: 10px; }
+  /* line 274, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .uk-table-small tfoot td {
+    padding: 5px 12px; }
+
+/* line 279, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-vertical {
+  width: 90%; }
+  /* line 281, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-vertical th {
+    text-align: left;
+    padding-right: 20px; }
+  /* line 285, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-vertical td {
+    padding-left: 10px; }
+  /* line 288, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-vertical td, .rz-table-vertical th {
+    vertical-align: top; }
+
+/* line 292, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-small-override {
+  font-size: 0.875rem; }
+  /* line 293, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-small-override tfoot td {
+    padding: 5px 12px; }
+
+/* line 298, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-col-s {
+  width: 50px; }
+
+/* line 301, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-col-m {
+  width: 70px; }
+
+/* line 304, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-print {
+  width: 100%;
+  border-collapse: collapse; }
+  /* line 307, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-print th, .rz-table-print td {
+    border: 1px solid #ABB0B5;
+    padding: 2.5px; }
+
+/* line 312, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-table-format {
+  border: 1px solid #E5E5E5; }
+  /* line 314, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-table-format th {
+    background-color: #E77817;
+    color: #FFF; }
+
+/* FAUX TABLE */
+/* line 322, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+dl.rz-table-faux {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; }
+  /* line 326, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  dl.rz-table-faux dt {
+    width: 150px; }
+
+/* LINKS & BUTTON */
+/* line 332, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+a,
+.uk-link {
+  color: #F1AE74;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 338, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+a:hover,
+.uk-link:hover,
+.uk-link-toggle:hover .uk-link,
+.uk-link-toggle:focus .uk-link {
+  color: #E77817;
+  text-decoration: underline; }
+
+/* line 345, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-button {
+  border-radius: 5px; }
+
+/* line 354, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-button-primary {
+  background-color: #E77817;
+  color: #FEF7F1; }
+
+/* line 358, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+  background-color: #F1AE74; }
+
+/* line 368, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.uk-checkbox:checked,
+.uk-checkbox:indeterminate,
+.uk-radio:checked {
+  background-color: #F1AE74;
+  border-color: transparent; }
+
+/* line 374, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-button {
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  line-height: 1.1; }
+  /* line 379, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-button:hover {
+    text-decoration: none;
+    color: #A25410;
+    background-color: #FBE9DA; }
+  /* line 384, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-button .rz-button-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #54595F; }
+
+/* line 390, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-button-large {
+  display: block;
+  padding: 20px;
+  text-transform: uppercase; }
+  /* line 394, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-button-large:hover {
+    text-decoration: none; }
+
+/* line 398, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-button-default {
+  background-color: #FFF;
+  border-radius: 10px;
+  transition: 0.3s; }
+  /* line 402, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-button-default:hover {
+    background-color: #FDF2E8; }
+
+/* line 406, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+.rz-dashboard .rz-panel a {
+  transition: .3s;
+  color: #A25410; }
+  /* line 409, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  .rz-dashboard .rz-panel a:hover {
+    text-decoration: none;
+    color: #E77817; }
+
+/* line 414, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+a.rz-panel-alt {
+  color: #666;
+  transition: 0.3s; }
+  /* line 417, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  a.rz-panel-alt:hover {
+    color: #6C6C6C; }
+
+/* line 423, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+p.rz-display::after {
+  content: "mobile"; }
+
+@media (min-width: 640px) {
+  /* line 429, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  p.rz-display::after {
+    content: "small"; } }
+
+@media (min-width: 960px) {
+  /* line 436, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  p.rz-display::after {
+    content: "medium"; } }
+
+@media (min-width: 1200px) {
+  /* line 444, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  p.rz-display::after {
+    content: "large"; }
+  /* SPLIT LAYOUT */
+  /* line 448, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  #sideContent {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 180px;
+    z-index: 2;
+    transition: height 0.3s ease-out;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 20px; }
+  /* line 463, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  #mainContent {
+    margin-left: 230px;
+    min-height: 99vh; }
+  /* line 467, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  #navbarMain {
+    margin-left: 240px; }
+  /* line 471, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  #navbarSide {
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 30px;
+    width: 210px;
+    z-index: 2; }
+  /* line 485, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  footer {
+    margin-left: 240px; } }
+
+@media (min-width: 1600px) {
+  /* line 493, /Volumes/MACBACKUP/MAMP/htdocs/duniasandang-UI/admin/style.scss */
+  p.rz-display::after {
+    content: "extra large"; } }
+
+/*# sourceMappingURL=style.css.map */
